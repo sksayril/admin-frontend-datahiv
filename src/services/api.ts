@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://7cvccltb-3000.inc1.devtunnels.ms/api';
+const BASE_URL = 'https://api.datahive.co.in/api';
 
 const api = axios.create({
   baseURL: BASE_URL,
