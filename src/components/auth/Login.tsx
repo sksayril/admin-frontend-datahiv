@@ -6,8 +6,8 @@ import { Lock, User, AtSign } from 'lucide-react';
 import toast from 'react-hot-toast';
 
 const Login: React.FC = () => {
-  const [email, setEmail] = useState('admin@example.com');
-  const [password, setPassword] = useState('adminpassword123');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const { login, isAuthenticated } = useAuth();
   const navigate = useNavigate();
